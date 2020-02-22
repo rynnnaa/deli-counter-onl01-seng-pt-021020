@@ -1,5 +1,5 @@
 def line(array)
-  if array.length == 0
+  if array.empty?
     puts "The line is currently empty."
   else
     phrase_arr = array.each_with_index.map do |name, idx|
