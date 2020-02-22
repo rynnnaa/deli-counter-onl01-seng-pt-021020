@@ -3,7 +3,7 @@ def line(array)
     puts "The line is currently empty."
   else
     phrase_arr = array.each_with_index.map do |name, idx|
-      "#{idx + 1}, #{name}"
+      "#{idx + 1}. #{name}"
     end
     puts "The line is currently: #{phrase_arr.join(',')}"
   end
