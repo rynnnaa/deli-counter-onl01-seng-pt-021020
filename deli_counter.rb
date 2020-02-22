@@ -9,7 +9,7 @@ def line(array)
   end
 end
 
-# def take_a_number(katz_array, name_of_person_joining)
-#   katz_array << name_of_person_joining
-#   puts "Welcome, #{name_of_person_joining}. You are number #{katz_array.length} in line."
-# end
+def take_a_number(katz_array, name_of_person_joining)
+  katz_array << name_of_person_joining
+  puts "Welcome, #{name_of_person_joining}. You are number #{katz_array.length} in line."
+end
