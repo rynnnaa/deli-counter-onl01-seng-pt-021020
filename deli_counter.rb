@@ -7,6 +7,7 @@ def line(array)
     end
     puts "The line is currently: #{phrase_arr.join(',')}"
   end
+end
 
 # def take_a_number(katz_array, name_of_person_joining)
 #   katz_array << name_of_person_joining
