@@ -20,5 +20,6 @@ def take_a_number(katz_array, name_of_person_joining)
   end
     katz_deli.each do |name|
       puts "Welcome, #{name}. You are number #{counter += 1} in line."
+    end
   end
 end
