@@ -14,7 +14,7 @@ def take_a_number(katz_array, name_of_person_joining)
   puts "Welcome, #{name_of_person_joining}. You are number #{katz_array.length} in line."
 end
 
-def now_serving(name_person_waiting)
+def now_serving(arr)
   if arr.length == 0 
     puts "The is nobody waiting to be served!"
   else
