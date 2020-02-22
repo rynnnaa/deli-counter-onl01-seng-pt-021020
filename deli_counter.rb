@@ -15,4 +15,10 @@ def take_a_number(katz_array, name_of_person_joining)
 end
 
 def now_serving(name_person_waiting)
+  if arr.length == 0 
+    puts "The is nobody waiting to be served!"
+  else
+    puts "Currently serving #{arr.pop}."
+  end
+end
   
