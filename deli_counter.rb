@@ -1,6 +1,6 @@
 def line(array)
   if array.length == 0 
-    puts 
+    puts "The line is currently empty."
     elsif array.length > 0
     arr.each_with_index do |name, idx|
       
