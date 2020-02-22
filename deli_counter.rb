@@ -1,10 +1,9 @@
 def line(array)
   if array.length == 0 
     puts "The line is currently empty."
-    elsif array.length > 0
-    arr.each_with_index do |name, idx|
-      
-    puts "The line is currently:"
+  else
+    phrase arr = array.each_with_index.map do |name, idx|
+    "#{idx + 1}, #{name}"
   end
 end
 
